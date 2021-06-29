@@ -1,0 +1,111 @@
+body{
+
+    font-family: adobe-garamond-pro,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    
+}
+div{
+    background-color:#EAF6F6;
+}
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #A7C4BC;
+    border-width: 8px;
+    width: 3%;
+}
+table.center {
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+h1{
+    
+    color :#24A19C ;
+    font-family: Segoe Print;
+    font-size: 45px;text-align: center;
+    
+}
+h2{
+    font-family:  adobe-garamond-pro,HelveticaNeue-Light;
+    text-align: center;
+    color :#24A19C ;
+    font-size: 25px;
+}
+
+   
+
+p{
+    text-align: center;
+    font-family: Garamond;
+    font-size: 22px;
+    color:rgb(80, 80, 80);
+}
+th{
+    text-align: center;
+    font-family: Garamond;
+    font-size: 22px;
+}
+
+
+td{
+    text-align: center;
+    font-family: Garamond;
+    font-size: 22px;
+    color:rgb(80, 80, 80);
+}
+.fimg{
+    display: block;
+     margin-left: auto;
+     margin-right: auto;
+    
+     
+    }
+
+
+
+    
+
+li, a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size:20px;
+    color: #DFEEEA;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    padding-right: 5;
+    background-color: #24A19C ;
+}
+
+footer{
+    width: 100%;
+    bottom: 0;
+    left:0;
+    background-color: #24A19C  ;
+}
+
+
+.logo{
+    cursor: pointer;
+}
+
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;    
+}
+.nav_links li a:hover{
+    color:white;
+}
